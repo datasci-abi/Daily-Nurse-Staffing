@@ -32,7 +32,7 @@ Data Loading and Cleaning
 Load the data using Pandas, handle mixed data types issues, and clean missing values:
 
 python
-Copy
+
 import pandas as pd
 
 df = pd.read_csv('PBJ_Nursingstaffing.csv', encoding='ISO-8859-1', low_memory=False)
@@ -40,7 +40,7 @@ Data Analysis
 Analyze staffing ratios and calculate contractor usage:
 
 python
-Copy
+
 # Calculate contractor-to-employee ratio
 df['contractor_ratio'] = df['Total_Contractor_Hours'] / df['Total_Employee_Hours']
 
@@ -50,7 +50,7 @@ Visualization
 Visualize the results to identify trends:
 
 python
-Copy
+
 import matplotlib.pyplot as plt
 
 plt.bar(state_analysis.index, state_analysis.values)
@@ -72,11 +72,11 @@ License
 Distributed under the MIT License. See LICENSE for more information.
 
 Contact
-Your Name – your-email@example.com
+Abisek Raut abisek_raut@hotmail.com
 
 Project Link: https://github.com/yourgithubusername/daily-nurse-staffing
 
 vbnet
-Copy
+
 
 This README is designed to guide users through setting up, using, and contributing to your project. It includes sections on the project's purpose, how to set up the environment, detailed instructions on how to run the analysis, and how to visualize the results.
